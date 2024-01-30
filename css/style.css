@@ -67,6 +67,9 @@ a {
 .news-list{
     list-style: none outside;
     margin-top: 30px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 15px 0;
 }
 .news-list .item a{
     display: flex;
@@ -77,7 +80,7 @@ a {
     padding: 20px 20px;
 }
 .news-list .item:first-child a{
-    border-top: 1px solid #CCC;
+    
 }
 .news-list .item .date{
     margin: 0;
@@ -193,12 +196,12 @@ a {
     position: relative;
     margin: 0 15px;
     background: #fff;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .blog__img {
     width: 100%;
-    border-radius: 30px 30px 0 0;
-}
+    border-radius: 10px 10px 0 0;
+} 
 .blog__absolute {
     position: absolute;
     background-color: #B31667;
@@ -206,6 +209,7 @@ a {
     top: 0;
     left: 0;
     padding: 10px 15px;
+    border-radius: 10px 0px 0 0;
 }
 .blog__text {
     color: #747474;
