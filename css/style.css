@@ -22,13 +22,13 @@ a {
 }
 .absolute {
     position: absolute;
-    top: 170px;
-    left: 310px;
+    top: 20%;
+    left: 20%;
 }
 .absolute-ttl {
     font-size: 70px;
     font-family: "Indie Flower", cursive;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: normal;
     color: #a51461;
     font-weight: bold;
@@ -52,8 +52,8 @@ a {
     line-height: 30px;
 }
 .news {
-    width: 800px;
-    margin: 100px auto;
+    width: 50%;
+    margin: 100px 30%;
 }
 .news .news-ttl {
     color: #C93B85;
@@ -78,9 +78,6 @@ a {
     color: #999;
     border-bottom: 1px solid #CCC;
     padding: 20px 20px;
-}
-.news-list .item:first-child a{
-    
 }
 .news-list .item .date{
     margin: 0;
@@ -126,7 +123,7 @@ a {
     line-height: 25px;
 }
 .inner {
-    margin: 50px 0px 50px 20%;
+    margin: 50px 25%;
 }
 .inner__ttl {
     color: #C93B85;
@@ -142,6 +139,12 @@ a {
     grid-template-rows: 150px 150px;
     grid-template-columns: 2fr 2fr;
     width: 900px;
+}
+.grid__img {
+    padding-top: 20px;
+}
+.grid__img2 {
+    padding: 20px 0 0 20px;
 }
 .grid1 {
     text-align: center;
@@ -165,7 +168,7 @@ a {
 }
 .grid__ttl {
     color: #fff;
-    margin: 15px 0 10px 10px;
+    margin: 20px 0 10px 10px;
 }
 .grid__text {
     color: #fff;
@@ -194,14 +197,14 @@ a {
 }
 .blog__card {
     position: relative;
-    margin: 0 15px;
+    margin: 0 20px;
     background: #fff;
     border-radius: 10px;
 }
 .blog__img {
     width: 100%;
     border-radius: 10px 10px 0 0;
-} 
+}
 .blog__absolute {
     position: absolute;
     background-color: #B31667;
@@ -230,9 +233,9 @@ a {
     margin-left: 25px;
 }
 .blog__btn {
-    width: 200px;
-    padding: 15px 20px;
-    margin: 25px 0 10px 600px;
+    width: 10%;
+    padding: 20px 25px;
+    margin: 25px 0 10px 45%;
     color: #B31667;
     border-radius: 30px;
     background: #fff;
@@ -241,7 +244,7 @@ a {
     border: solid 2px #B31667;
 }
 .company {
-    margin: 80px 0 100px 500px;
+    margin: 80px 0 100px 35%;
 }
 .company__ttl {
     color: #C93B85;
@@ -264,7 +267,7 @@ color: #747474;
 }
 table th {
     text-align: left;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5
 }
 .photo {
     display: flex;
