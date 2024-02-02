@@ -18,7 +18,8 @@ a {
 .relative__img {
     position: relative;
     width: 100%;
-    margin-left: 40%;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .absolute {
     position: absolute;
@@ -123,7 +124,7 @@ a {
     line-height: 25px;
 }
 .inner {
-    margin: 50px 25%;
+    margin-left: 25%;
 }
 .inner__ttl {
     color: #C93B85;
