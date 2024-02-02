@@ -54,7 +54,7 @@ a {
 }
 .news {
     width: 50%;
-    margin: 100px 30%;
+    margin: 50px auto;
 }
 .news .news-ttl {
     color: #C93B85;
@@ -124,7 +124,8 @@ a {
     line-height: 25px;
 }
 .inner {
-    margin-left: 25%;
+    width: 60%;
+    margin: 50px auto;
 }
 .inner__ttl {
     color: #C93B85;
@@ -245,7 +246,8 @@ a {
     border: solid 2px #B31667;
 }
 .company {
-    margin: 80px 0 100px 35%;
+    width: 50%;
+    margin: 80px auto;
 }
 .company__ttl {
     color: #C93B85;
@@ -253,11 +255,11 @@ a {
 }
 .company__block {
     color: #747474;
-    margin: 10px 0 20px;
+    margin: 10px 0;
     font-size: 23px;
 }
 table {
-    width: 60%;
+    width: 100%;
     border-collapse: collapse;
 }
 table th,
