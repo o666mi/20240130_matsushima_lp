@@ -23,11 +23,12 @@ a {
 }
 .absolute {
     position: absolute;
-    top: 20%;
+    top: 100px;
     left: 20%;
+    margin: 0 auto;
 }
 .absolute-ttl {
-    font-size: 70px;
+    font-size: 5vw;
     font-family: "Indie Flower", cursive;
     font-weight: 400px;
     font-style: normal;
@@ -140,7 +141,7 @@ a {
     display: grid;
     grid-template-rows: 150px 150px;
     grid-template-columns: 2fr 2fr;
-    width: 900px;
+    width: 800px;
 }
 .grid__img {
     padding-top: 20px;
@@ -182,7 +183,7 @@ a {
     padding: 30px;
 }
 .blog {
-    margin: 30px 0 20px 300px;
+    margin: 30px 0 20px 18%;
 }
 .blog__ttl {
     color: #C93B85;
@@ -276,28 +277,18 @@ table th {
     display: flex;
     justify-content: center;
 }
-.photo__img1 {
+.photo__img1 .photo__img2 {
     position: relative;
+    width: 50%;
 }
-.photo__text1 {
+.photo__text1 .photo__text2{
     position: absolute;
     color: #fff;
     top: 125px;
     left: 275px;
     font-size: 30px;
-    font-weight: bold;
 }
-.photo__img2 {
-    position: relative;
-}
-.photo__text2 {
-    position: absolute;
-    color: #fff;
-    top: 125px;
-    left: 200px;
-    font-size: 30px;
-    font-weight: bold;
-}
+
 .footer {
     text-align: center;
 }
