@@ -54,7 +54,7 @@ a {
     line-height: 30px;
 }
 .news {
-    width: 50%;
+    width: 65%;
     margin: 50px auto;
 }
 .news .news-ttl {
@@ -141,7 +141,6 @@ a {
     display: grid;
     grid-template-rows: 150px 150px;
     grid-template-columns: 2fr 2fr;
-    width: 750px;
 }
 .grid__img {
     padding-top: 20px;
@@ -206,6 +205,7 @@ a {
     margin: 0 20px;
     background: #fff;
     border-radius: 10px;
+    width: 20%;
 }
 .blog__img {
     width: 100%;
@@ -239,9 +239,9 @@ a {
     margin-left: 25px;
 }
 .blog__btn {
-    width: 10%;
+    width: 15%;
     padding: 20px 25px;
-    margin: 25px 0 10px 45%;
+    margin: 20px auto;
     color: #B31667;
     border-radius: 30px;
     background: #fff;
@@ -279,6 +279,10 @@ table th {
 .photo {
     display: flex;
     justify-content: center;
+}
+.photo__recruit,
+.photo__interview {
+    width: 50%;
     position: relative;
 }
 .photo__img1,
@@ -288,15 +292,15 @@ table th {
 .photo__text1 {
     position: absolute;
     color: #fff;
-    top: 125px;
-    left: 25%;
+    top: 40%;
+    left: 40%;
     font-size: 30px;
 }
 .photo__text2{
     position: absolute;
     color: #fff;
-    top: 125px;
-    left: 65%;
+    top: 40%;
+    left: 30%;
     font-size: 30px;
 }
 .footer {
